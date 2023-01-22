@@ -6,7 +6,7 @@ vector<int> quick_sort(vector<int> arr)
     {
         return arr;
     }
-    int pivot = arr.size() / 2;
+    int pivot = rand() % (arr.size());
 
     vector<int> less_equal;
 
